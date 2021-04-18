@@ -1,0 +1,105 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+float:left;
+max-width: 700px;
+}
+
+main {
+margin-bottom: 10px;
+}
+
+aside {
+float:left;
+}
+
+nav {
+float:left;
+}
+
+footer {
+position: absolute;
+bottom: 0px;
+width: 1400px;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 1.9rem;
+letter-spacing: 0.7px;
+text-align: center;
+ }
+ h2 {
+   font-family: 'Bebas Neue', cursive;
+   font-size: 1.2rem;
+   letter-spacing: 0.5px;
+ }
+p, li {
+   font-family: 'Lexend', sans-serif;
+   font-size: 0.625rem;
+   letter-spacing: 0.5px;
+   line-height: 16px;
+   word-spacing: 0.3px;
+ }
+ div {
+   text-indent: 20px;
+ }
+a {
+ color: #a52a2a;
+ border-color: #a52a2a;
+}
+a:hover {
+   color: #c0362c;
+   text-decoration: none;
+ }
+a:focus {
+  color:#c0362c;
+  outline: none;
+}
+a:visited {
+  color: #ff7f50;
+}
+a:active {
+  color: #dc143c;
+}
+li::marker {
+  font-size: 0.8rem;
+  color: #be4f62;
+}
+
+nav li {
+  list-style:none;
+  padding: 15px;
+  border:2px #a52a2a solid;
+  margin: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+}
